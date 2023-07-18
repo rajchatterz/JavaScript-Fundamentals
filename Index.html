@@ -8,9 +8,30 @@
     <style>
         .container{
             display: grid;
-            grid-template-columns: repeat(5,1fr);
+            grid-template-columns: repeat(4,200px);
+            justify-content: center;
+                align-items: center;
             gap: 100px;
         }   
+        @media (max-width:700px){
+            .container{
+                display: grid;
+                grid-template-columns: repeat(2,200px);
+                justify-content: center;
+                align-items: center;
+                gap: 100px;
+            }   
+        }
+        @media (max-width:400px){
+            .container{
+                justify-content: center;
+                align-items: center;
+                display: grid;
+                grid-template-columns: repeat(1,200px);
+                
+                gap: 50px;
+            }   
+        }
         .div{
             padding: 5px 20px;
             background-color: purple;
