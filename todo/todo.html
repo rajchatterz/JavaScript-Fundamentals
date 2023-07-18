@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <style>
+        .container{
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid red;
+        }
+        .item{
+            margin-top: 50px;
+        }
+        #btn{
+            padding: 20px 40px;
+            border-radius: 100px;
+        }
+        .button{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        #inp{
+            padding: 20px 40px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="button">
+            <input type="text" id="inp">
+            <button id="btn">Add Item Here</button>
+        </div>
+        <div class="item">
+            <div id="list"></div>
+        </div>
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+</html>

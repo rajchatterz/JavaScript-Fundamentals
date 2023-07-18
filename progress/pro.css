@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  
+
+  width: 100vw;
+  height: 8vh;
+  position:fixed;
+  z-index: 1;
+  background-color: white;
+}
+.bar{
+  background-color: aquamarine;
+  width: 100vw;
+  height: 8px;
+  position: fixed;
+  
+}
+.contain{
+  z-index: 0;
+  padding-top: 70px;
+}

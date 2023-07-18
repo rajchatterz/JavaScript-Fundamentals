@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamically adding element</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            flex-direction: column;
+        }
+        .button{
+            margin-top: 100px;
+        }
+        #item {
+            
+            list-style: none;
+        }
+        #btn{
+            padding: 20px 30px;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="button"><button id="btn">Add the item here</button></div>
+        <div class="list"><li id="item"></li></div>
+    </div>
+    <script src="./order.js"></script>
+</body>
+</html>
